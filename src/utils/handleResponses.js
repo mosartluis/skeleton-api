@@ -63,7 +63,6 @@ const getAllProducts = (req, res) => {
             })
         })
 }
-
 const getProductById = (req, res) => {
     findProductById(id)
         .then(data => {

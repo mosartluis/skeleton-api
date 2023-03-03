@@ -13,7 +13,7 @@ const postLogin = (req, res) => {
                     id: data.id,
                     email: data.email,
                     firstName: data.firstName
-                }, config.secretOrkey, {
+                }, config.secretOrKey, {
                     expiresIn: '1d'
                 })
 
